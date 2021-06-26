@@ -4,4 +4,4 @@
 - MQClient-----------------MQtt客户端
 - emailtool-----------------邮件发送工具(在[飞扬青云](https://gitee.com/feiyangqingyun/QWidgetDemo)的例子上改的)
 - QZIPDemo---------------Qt压缩文件夹(在[pan0](https://gitee.com/pan0/WinRarInterface)的例子上改的)
-
+- MQttDemo---------------MQtt的一个小应用
