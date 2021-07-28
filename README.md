@@ -8,4 +8,7 @@
 - EasyQPainter------------QPianter绘图Demo-->[龚建波](https://gitee.com/gongjianbo/EasyQPainter)
 - KNDControl3-------------康奈德控制
 - BPNNDemoQt----------使用Qt编写的BP神经网络分类器演示程序 -->[ZzqiZQute](https://gitee.com/ZzqiZQute/BPNNDemoQt)
+- QtOpenGL
+  - QtOpenGL---------Qt OpenGL Demo--->[武威的涛哥](https://gitee.com/jaredtao_admin/QtOpenGL)
+  - 
 
