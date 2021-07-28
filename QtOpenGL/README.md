@@ -64,7 +64,7 @@ Qt5写的一些OpenGL小例子集合,
 ## HelloMix   
 
     绘制了10个立方体，每个立方体的每个表面使用2张纹理混合贴图。混合比例按数字键1/2进行调节。
-   
+
 ![HelloMix](img/HelloMix.png)
 
 ## QuickOpenGL
@@ -86,11 +86,11 @@ Qt5写的一些OpenGL小例子集合,
 ![FrameBufferObject](img/FrameBufferObject.png)
 
     使用QQuickFramebufferObject 作为OpenGL自绘制控件(相当于QQuickItem了)。
-
+    
     QQuickFramebufferObject是 Qt封装好的，需要理解其使用架构。
-
+    
     这里大概说一下用法：
-
+    
     1. 继承QQuickFramebufferObject实现一个自定义item,并注册到QML中使用。Item在Qml中的旋转、平移、缩放都能支持。
     2. 继承QQuickFramebufferObject::Renderer,实现一个自定义Renderer
     3. 自定义Renderer内部再封装一个OpenGL相关的渲染类。Renderer是在Scene Graph线程工作，始终拥有OpenGL上下文环境，所以渲染类写在Renderer内部，非常方便。
@@ -125,7 +125,7 @@ Qt5写的一些OpenGL小例子集合,
 ![DepthTest](img/DepthTest.png)
 
 ## SkyBox
- 
+
     天空盒， 可以键盘和鼠标操作
 
 ![SkyBox](img/SkyBox.png)
@@ -137,12 +137,6 @@ Qt5写的一些OpenGL小例子集合,
     反相处理效果如下:
 
 ![HelloFBO](img/HelloFBO.png)
-
-# 赞助
-
-如果您觉得这个项目还不错，请打赏一下作者。
-
-<img src="https://gitee.com/jaredtao/jaredtao/raw/master/img/weixin.jpg?raw=true" width="25%" height="25%" /><img src="https://gitee.com/jaredtao/jaredtao/raw/master/img/zhifubao.jpg?raw=true" width="25%" height="25%" />
 
 # 联系作者
 
