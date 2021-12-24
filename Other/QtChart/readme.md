@@ -1,0 +1,1 @@
+https://gitee.com/Morning_pkq/QtChart.git

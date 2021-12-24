@@ -1,0 +1,10 @@
+release/
+debug/
+*.user
+*.Debug
+*.Release
+Makefile
+*.stash
+*.rc
+*.exe
+*.qmlc
